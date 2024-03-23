@@ -26,8 +26,6 @@ def Fintech_Solutions():
 def Fintech_solutions(name):
     return render_template("main.html",USER=name)"""
 
-if __name__ == "__main__":
-    app.run()
 
 
 

@@ -30,5 +30,4 @@ def login():
         db.session.commit()
     return render_template('contact.html')
 
-if __name__ == '__main__':
-    app.run()
+
